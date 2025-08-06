@@ -1,0 +1,8 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-hover:hover {
+  background-color: #f0f8ff;
+  cursor: pointer;
+}
