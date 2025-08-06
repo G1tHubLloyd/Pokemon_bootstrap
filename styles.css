@@ -1,8 +1,68 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styling for Pokémon list items */
+.list-hover {
+  background-color: #f0f8ff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50; /* Dark blue-gray */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .list-hover:hover {
-  background-color: #f0f8ff;
-  cursor: pointer;
+  background-color: #e0f0ff;
+  color: #2980b9; /* Brighter blue on hover */
+}
+
+/* Optional: Type-specific font colors */
+.fire-type {
+  color: #e74c3c; /* Red */
+}
+
+.water-type {
+  color: #3498db; /* Blue */
+}
+
+.grass-type {
+  color: #27ae60; /* Green */
+}
+
+.electric-type {
+  color: #f1c40f; /* Yellow */
+}
+
+.psychic-type {
+  color: #9b59b6; /* Purple */
+}
+
+.rock-type {
+  color: #7f8c8d; /* Gray */
+}
+
+.ice-type {
+  color: #00bfff; /* Ice blue */
+}
+
+.dragon-type {
+  color: #8e44ad; /* Deep purple */
+}
+
+/* Modal image styling */
+.modal-img {
+  max-height: 300px;
+  width: auto;
+}
+
+/* Modal height text */
+#modal-height {
+  font-size: 1.1rem;
+  color: #555;
 }
